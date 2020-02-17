@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1946584d-1c4e-4fa1-b781-b888a44e3796" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/analyzers/ProcessTrace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyzers/ProcessTrace/evtx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyzers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyzers/analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/managers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/browser/chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/browser/chrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/browser/firefox.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/browser/firefox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/browser/msie.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/browser/msie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/browser/opera.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/browser/opera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/browser/safari.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/browser/safari.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/fs/filestat.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/fs/filestat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/fs/ntfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/fs/ntfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/appcompatcache.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/appcompatcache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/bagmru.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/bagmru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/bam.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/bam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/ccleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/ccleaner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/lfu.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/lfu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/mountpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/mountpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/mrulist.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/mrulist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/mrulistex.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/mrulistex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/msie_zones.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/msie_zones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/network_drives.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/network_drives.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/networks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/officemru.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/officemru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/outlook.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/outlook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/programscache.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/programscache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/sam_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/sam_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/shutdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/shutdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/task_scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/task_scheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/terminal_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/terminal_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/timezone.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/timezone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/typedurls.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/typedurls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/usb.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/usb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/usbstor.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/usbstor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/userassist.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/userassist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/windows_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/windows_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/winlogon.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/winlogon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/winrar.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/winrar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/registry/winreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/registry/winreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/srum.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/srum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/win_eventlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/win_eventlog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/events/windows/win_prefetch.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/logs/windows/win_prefetch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/managers/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsers/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/parser.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TSlxuEffCLgPsK5WFBXVbYblas" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/parsers" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/parsers" />
+      <recent name="$PROJECT_DIR$/parsers/managers" />
+      <recent name="$PROJECT_DIR$/analyzers/ProcessTrace" />
+      <recent name="$PROJECT_DIR$/parsers/events/windows/registry" />
+      <recent name="$PROJECT_DIR$/parsers/events/windows" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1946584d-1c4e-4fa1-b781-b888a44e3796" name="Default Changelist" comment="" />
+      <created>1573461627164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573461627164</updated>
+      <workItem from="1573461628328" duration="19598000" />
+      <workItem from="1573544530416" duration="6661000" />
+      <workItem from="1573622891977" duration="5170000" />
+      <workItem from="1573638281705" duration="2235000" />
+      <workItem from="1573738132131" duration="3876000" />
+      <workItem from="1574071387649" duration="1987000" />
+      <workItem from="1574134816954" duration="5137000" />
+      <workItem from="1574156113595" duration="1644000" />
+      <workItem from="1574231816612" duration="1835000" />
+      <workItem from="1574310587855" duration="18312000" />
+      <workItem from="1575369657396" duration="599000" />
+      <workItem from="1575442764843" duration="6224000" />
+      <workItem from="1575450081450" duration="13624000" />
+      <workItem from="1576031442056" duration="975000" />
+      <workItem from="1576480267826" duration="1704000" />
+      <workItem from="1578501819776" duration="5611000" />
+      <workItem from="1578989232366" duration="8394000" />
+      <workItem from="1579075561589" duration="6635000" />
+      <workItem from="1579083735636" duration="1481000" />
+      <workItem from="1579504905919" duration="2521000" />
+      <workItem from="1579597650440" duration="6649000" />
+      <workItem from="1579607556613" duration="7613000" />
+      <workItem from="1580101663358" duration="6960000" />
+      <workItem from="1580144475500" duration="6102000" />
+      <workItem from="1580151094309" duration="26369000" />
+      <workItem from="1580433511972" duration="6000" />
+      <workItem from="1580445011825" duration="18180000" />
+      <workItem from="1581315515978" duration="27922000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/csv_interface.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/count_attribute.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lib/editgraph.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parsers/logs/fs/filestat.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parsers/logs/fs/filestat.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parsers/logs/fs/filestat.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parsers/logs/fs/filestat.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
