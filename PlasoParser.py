@@ -10,6 +10,15 @@ __version__ = "0.1"
 __date__ = "2020_01_15"
 
 
+def DatatypeMask(event_path, export_path , *data_type):
+    with open(export_path, "a", encoding="utf-8") as f:
+        for log in json_interface.JsonloadLiner(event_path):
+            if not log['data_type'] in data_type:
+                json.dump(log, f)
+                f.write("\n")
+        print("finished!! export >> " + export_path)
+
+
 def AnalyseTimeRange(timestamp, time_range):
     """Determine if timestamp is within specified range
 
