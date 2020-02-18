@@ -10,7 +10,17 @@ __version__ = "0.1"
 __date__ = "2020_01_15"
 
 
-def DatatypeMask(event_path, export_path , *data_type):
+def TimestampSearch(event_path, search_time):
+    tstrdt = search_time
+    tdatetime = datetime.strptime(tstrdt, '%Y-%m-%d %H:%M:%S')
+    for log in json_interface.JsonloadLiner(event_path):
+        if log['timestamp']/1000000 >= datetime.timestamp(tdatetime):
+            print(str(log['timestamp']/1000000))
+            print(log)
+            break
+
+
+def DatatypeMask(event_path, export_path, *data_type):
     with open(export_path, "a", encoding="utf-8") as f:
         for log in json_interface.JsonloadLiner(event_path):
             if not log['data_type'] in data_type:
